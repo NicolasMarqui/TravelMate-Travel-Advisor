@@ -239,4 +239,28 @@
   position: absolute;
   bottom: 0;
 }
+
+.fullDashWrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fullDashWrapper .sideNavDash {
+  height: 100vh;
+  position: fixed;
+  width: 60px;
+  background-color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fullDashWrapper .fullDashContent {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #FFC300;
+}
 /*# sourceMappingURL=style.css.map */

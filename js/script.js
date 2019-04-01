@@ -1,3 +1,7 @@
+//Global Variables
+let navMenuDash = document.querySelector('.btnMenu');
+
+//Functions
 const changeNavOnScroll = () => {
     let nav = document.querySelector('.navWrapper');
     let navLogo = document.querySelector('.navLogo');
@@ -42,4 +46,18 @@ const changeNavOnScroll = () => {
     }
 }
 
-window.addEventListener('scroll', changeNavOnScroll)
+const openMoreSideDash = () => {
+    let nav = document.querySelector('.sideNavDash');
+
+    if(nav.style.width === '60px' || nav.style.width === ''){
+        nav.style.width = '200px';
+    }else{
+        nav.style.width = '60px';
+    }
+}
+
+//Events Listeners
+
+window.addEventListener('scroll', changeNavOnScroll);
+navMenuDash.addEventListener('click', openMoreSideDash);
+
