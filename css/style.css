@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headerWrap {
+  height: 100vh;
+  width: 100%;
+  background: url("../assets/bg.jpg") no-repeat left;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.headerWrap .navWrapper {
+  min-height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerWrap .navWrapper .navLogo {
+  padding: 5%;
+  font-weight: 300;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.headerWrap .navWrapper .navLogo span {
+  font-weight: 700;
+}
+
+.headerWrap .navWrapper ul {
+  list-style-type: none;
+  padding: 8% 5% 5% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.headerWrap .navWrapper ul li .active {
+  border-bottom: 2px solid red;
+}
+
+.headerWrap .navWrapper ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 50px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.headerWrap .navWrapper ul li a:hover {
+  border-bottom: 2px solid red;
+}
+
+.headerWrap .selectDest {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 50%;
+  height: 400px;
+  background-color: #C70039;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.headerWrap .selectDest h1 {
+  font-size: 105px;
+  margin-left: 4%;
+  color: #ffffff;
+}
+
+.headerWrap .selectDest h3 {
+  margin-left: 5%;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.headerWrap .selectDest .linkLogin {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.headerWrap .selectDest button {
+  margin: 5% 4%;
+  padding: 2%;
+  width: 40%;
+  background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+
+.loginWrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #2274A5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginWrapper .navWrapper {
+  min-height: 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.loginWrapper .navWrapper .navLogo {
+  padding: 5%;
+  font-weight: 300;
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.loginWrapper .navWrapper .navLogo span {
+  font-weight: 700;
+}
+
+.loginWrapper .navWrapper ul {
+  list-style-type: none;
+  padding: 8% 5% 5% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.loginWrapper .navWrapper ul li .active {
+  border-bottom: 2px solid red;
+}
+
+.loginWrapper .navWrapper ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 50px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.loginWrapper .navWrapper ul li a:hover {
+  border-bottom: 2px solid red;
+}
+
+.loginWrapper .formWrapper {
+  width: 25%;
+  min-height: 45%;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.loginWrapper .formWrapper h1 {
+  font-weight: 200;
+}
+
+.loginWrapper .formWrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginWrapper .formWrapper form input {
+  margin: 5%;
+  padding: 4%;
+}
+
+.loginWrapper .formWrapper form button {
+  padding: 4%;
+  border: none;
+  background-color: #C70039;
+  margin-top: 4%;
+  width: 100%;
+  color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
